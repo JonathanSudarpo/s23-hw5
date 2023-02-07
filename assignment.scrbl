@@ -34,14 +34,20 @@ A bag (or multiset) is like a set, except that each element can appear multiple 
 
 @minted-file-part["lean" "p1-b" hw-file]
 
-Complete the following definitions for the functions count, sum, add, and member for bags.
+Complete the following definitions for the functions count, union, add, and member for bags.
 
 @minted-file-part["lean" "p1-c" hw-file]
 
 @section{Proofs in Minimal Propositional Logic}
 
+Complete the following "proofs", by replacing the @lean{_} with a term that typechecks. You should not
+need to use any @italic{tactics}.
+
 @minted-file-part["lean" "p1-d" hw-file]
 
 @section{Proofs in Propositional Logic}
+
+Complete the following "proofs", by replacing the @lean{_} with a term that typechecks. You should not
+need to use any @italic{tactics}.
 
 @minted-file-part["lean" "p1-e" hw-file]
