@@ -62,7 +62,7 @@ def remove_all : Nat -> Bag -> Bag := _
 example : count 5 (remove_all 5 [2,1,5,4,1]) = 0 := by rfl
 example : count 5 (remove_all 5 [2,1,4,1]) = 0 := by rfl
 example : count 4 (remove_all 5 [2,1,4,5,1,4]) = 2 := by rfl
-example : count 5 (remove_all 5 [2,1,5,4,5,1,4,5,1,4]) = 0 := 0
+example : count 5 (remove_all 5 [2,1,5,4,5,1,4,5,1,4]) = 0 := by rfl
 
 def subset : Bag -> Bag -> Bool := _
 example : subset [1,2] [2,1,4,1] = true := by rfl
